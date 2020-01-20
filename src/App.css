@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+.App{
+    height: 100%;
+}
+ .layout{
+    height: 100%;
+}
+/*
+.content{
+     
+    height: 100%;
+
+}
+.container{
+    background: #fff; 
+    min-height: 85vh;
+} */

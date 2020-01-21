@@ -13,13 +13,13 @@ const Navbar = () => {
     >
       <Menu.Item key="1">
         <span>
-          <Icon type="user" />
+          <Icon type="home"  theme="twoTone" twoToneColor="#fff200"/>
           About
         </span>
       </Menu.Item>
       <Menu.Item key="2">
         <span>
-          <Icon type="project" />
+          <Icon type="project" theme="twoTone" twoToneColor="#ff0000" />
           Projects
         </span>
       </Menu.Item>

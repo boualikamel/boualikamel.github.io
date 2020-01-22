@@ -2,8 +2,8 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div className="about">
-
+    <div className="component-route">
+sssss
   </div>
   );
 };

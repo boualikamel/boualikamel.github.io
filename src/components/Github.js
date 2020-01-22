@@ -3,7 +3,7 @@ import React from 'react';
 const Github = () => {
   return (
     <div className="component-route">
-ghjfkisfhugi
+      <h1>GITHUB</h1>
   </div>
   );
 };

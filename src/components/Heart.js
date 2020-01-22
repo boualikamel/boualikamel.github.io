@@ -2,8 +2,8 @@ import React from 'react';
 
 const Heart = () => {
   return (
-    <div className="about">
-
+  <div className="component-route">
+      i'm at heart component
   </div>
   );
 };

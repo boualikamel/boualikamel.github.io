@@ -2,5 +2,10 @@
   background: rgb(255, 255, 255);
   height: 100%;
   overflow: hidden;
-  @import "./navbar"
+  @import "./navbar";
+  .component-route{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
 }

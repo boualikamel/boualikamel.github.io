@@ -1,0 +1,38 @@
+.about{
+    img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    div{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        display: inline-block;
+        @media screen and (max-width: 700px) {
+           left: 5%;
+        }
+        .name{
+            font-size: xx-large;
+            font-weight: bold;
+            @media screen and (max-width: 700px) {
+                font-size: 1.5rem;
+            }
+        }
+        .title{
+            font-size: 2rem;
+            font-weight: 900;
+            @media screen and (max-width: 700px) {
+                font-size: 1.5rem;
+            }
+        }
+        .definition{
+            font-size: large;
+            font-weight: 600;
+            @media screen and (max-width: 700px) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+}

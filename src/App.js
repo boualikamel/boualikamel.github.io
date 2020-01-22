@@ -2,9 +2,7 @@ import React from "react";
 import Bubbles from "./Bubbles"
 import Navbar from "./layouts/Navbar"
 import Routes from "./layouts/Routes"
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 
 import { Layout } from "antd";
 const { Content } = Layout;
@@ -17,7 +15,7 @@ function App() {
           <Layout className="card">
           <Router>
             <Navbar/>
-            <Content style={{ padding: "24px 24px", position: "relative" }}>
+            <Content style={{ position: "relative" }}>
             <Routes></Routes>
             <Bubbles></Bubbles>
             </Content>

@@ -5,8 +5,8 @@ const { Meta } = Card;
 const Projects = () => {
   return (
     <div className="content-routes">
-      <Row gutter={16}>
-      <Col span={8}>
+      <Row applyVertGutter="true" type="flex">
+      <Col >
       <Card
         style={{ width: 200 }}
         cover={
@@ -18,7 +18,7 @@ const Projects = () => {
       >
       </Card>
       </Col>
-      <Col span={8}>
+      <Col >
       <Card
         style={{ width: 200 }}
         cover={
@@ -30,8 +30,7 @@ const Projects = () => {
       >
       </Card>
       </Col>
-      <Col span={8}>
-
+      <Col>
       <Card
         style={{ width: 200 }}
         cover={
@@ -43,8 +42,7 @@ const Projects = () => {
       >
       </Card>
       </Col>
-      </Row>
-
+  </Row>
     </div>
   );
 };

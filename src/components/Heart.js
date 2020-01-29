@@ -2,7 +2,7 @@ import React from 'react';
 
 const Heart = () => {
   return (
-    <div className="about">
+    <div className="content-routes">
 
   </div>
   );

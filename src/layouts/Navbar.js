@@ -1,10 +1,10 @@
 import React from "react";
 import { Menu, Icon } from "antd";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <Router>
+  
     <Menu
       className="navbar"
       mode="horizontal"
@@ -23,31 +23,26 @@ const Navbar = () => {
           <Icon type="project" theme="twoTone" twoToneColor="#ff0000" />
           Projects
         </span>
+        <Link to="/projects" />
+
       </Menu.Item>
       <Menu.Item key="3">
         <span>
-        <Link to="/" />
+        <Link to="/projects" />
           <Icon type="heart" theme="twoTone" twoToneColor="#eb2f96" />
           Heart
         </span>
-        <Link to="/" />
+        <Link to="/heart" />
       </Menu.Item>
       <Menu.Item key="4">
         <span>
           <Icon type="message" theme="twoTone" twoToneColor="#52c41a" />
           Contact
         </span>
-        <Link to="/" />
-      </Menu.Item>
-      <Menu.Item key="5">
-        <span>
-          <Icon type="github" />
-          Github
-        </span>
-        <Link to="/" />
+        <Link to="/contact" />
       </Menu.Item>
     </Menu>
-    </Router>
+    
   );
 };
 

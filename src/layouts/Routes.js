@@ -5,7 +5,7 @@ import Projects from "../components/Projects"
 import Heart from "../components/Heart"
 import Contact from "../components/Contact"
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {Route} from "react-router-dom";
 
 const Routes = () => {
   return (

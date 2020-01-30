@@ -2,7 +2,7 @@ import React from 'react';
 import Person from '../img/person.png'
 const About = () => {
   return (
-    <div className="component-route about">
+    <div className="content-route about">
        <img src={Person} alt="person"></img>
       <div>
         <p className="name">BOUALI KAMEL.</p>

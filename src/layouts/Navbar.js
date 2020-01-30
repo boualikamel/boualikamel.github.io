@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
+  
     <Menu
       className="navbar"
       mode="horizontal"
@@ -23,9 +24,11 @@ const Navbar = () => {
           Projects
         </span>
         <Link to="/projects" />
+
       </Menu.Item>
       <Menu.Item key="3">
         <span>
+        <Link to="/projects" />
           <Icon type="heart" theme="twoTone" twoToneColor="#eb2f96" />
           Heart
         </span>
@@ -38,14 +41,8 @@ const Navbar = () => {
         </span>
         <Link to="/contact" />
       </Menu.Item>
-      <Menu.Item key="5">
-        <span>
-          <Icon type="github" />
-          Github
-        </span>
-        <Link to="/github" />
-      </Menu.Item>
     </Menu>
+    
   );
 };
 

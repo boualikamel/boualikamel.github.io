@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Heart = () => {
+const Home = () => {
   return (
     <div className="content-routes">
 
@@ -8,4 +8,4 @@ const Heart = () => {
   );
 };
 
-export default Heart;
+export default Home;
